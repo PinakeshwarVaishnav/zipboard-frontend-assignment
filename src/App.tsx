@@ -36,7 +36,7 @@ const faqData = [
 ];
 
 export default function FAQPage() {
-  const [expandedItems, setExpandedItems] = useState<number[]>([1]);
+  const [expandedItems, setExpandedItems] = useState<number[]>([]);
   const [darkMode, setDarkMode] = useState(false);
 
   const toggleItem = (id: number) => {
